@@ -20,6 +20,7 @@ class App extends React.Component {
 		const fetchedData = await fetchData(country);
 
 		this.setState({ data: fetchedData, country });
+		document.title = country ? `COVID-19 tracker | ${this.state.country}` : 'COVID-19 tracker | Global'
 	};
 
 	render() {
