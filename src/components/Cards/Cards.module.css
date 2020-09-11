@@ -1,0 +1,25 @@
+.container {
+	margin: 50px 0;
+}
+
+.card {
+	margin: 2% !important;
+}
+
+.infected,
+.recovered,
+.deaths {
+	border-width: 3px;
+	border-style: solid;
+}
+
+.infected {
+	border-image: linear-gradient(to bottom, blue, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+.recovered {
+	border-image: linear-gradient(to bottom, green, rgba(0, 0, 0, 0)) 1 100%;
+}
+.deaths {
+	border-image: linear-gradient(to bottom, red, rgba(0, 0, 0, 0)) 1 100%;
+}
